@@ -1,0 +1,302 @@
+.investmentcard{
+  border-radius: 20px;
+  align-content: center;
+  background-color: white;
+  margin-top: 20px;
+}
+.rightfloat{
+  float: right;
+
+}
+h4{
+  display: inline;
+}
+.assetcard{
+border-radius: 20px;
+margin-top: 20px;
+background-color: #6B7AA1;
+}
+.assets{
+  width:100px;
+  border-radius: 20px;
+  height:10em;
+
+}
+.rightcard
+{
+  background-color:#FF6701;
+  border-radius:15px;
+  margin-top:20px;
+  margin-right:1.5rem;
+}
+.rightsidecard{
+  background-color: #012443;
+  border-radius:15px;
+  margin-top:20px;
+  margin-right:1.5rem;
+
+
+}
+.rightbtn{
+  background-color:#6B7AA1;
+  color: white;
+  border-radius: 4px;
+  width:40%;
+}
+
+.brandimg{
+  width:100%;
+  position: relative;
+  right: 30px;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.brandcard{
+  border-radius: 20px;
+  min-width: 10%;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+
+  background-color: #6B7AA1;
+}
+.box{
+  padding: 20px;
+border-radius: 20px;
+background-color: #012443;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: black;
+  color: white;
+
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.float{
+  float: right;
+}
+
+
+
+
+
+.card-right {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f7a13e;
+
+  color: white !important;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 1px 2px #f7a13e;
+}
+
+.fa-icon-setting{
+  color:lightseagreen;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.card-right-big{
+  background-color:  #012443;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 1px 2px #6103b8;
+  color: white
+
+}
+
+
+#container {
+  height: 400px;
+}
+
+.highcharts-figure, .highcharts-data-table table {
+ width: 100%;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #EBEBEB;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  /* max-width: 500px; */
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+
+.asset-card{
+  width: 100%;
+  background-color: #6B7AA1;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 30px;
+  background: black;
+  right: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.img-container{
+  padding: 15px !important;
+  left:-25px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.row{
+  padding-right: 0 !important;
+}
+
+.heading{
+  margin-top: 5px;
+  color:#f7a13e;
+  margin-bottom: 5px;
+}
+
+.pull-right{
+  text-align: right;
+  float: right;
+}
+
+.btn-set{
+    float: right;
+    background: #012443;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.fa-mar{
+  margin-right: 7px !important;
+  font-size: 12px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 697px) {
+  .sidebar a{
+    padding: 4px !important;
+    margin-bottom: 10px !important;
+  }
+  .hide{
+  display: none !important;
+  }
+  .container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .sidebar{
+    width: 100% !important;
+  }
+}
+
+
+
+@media screen and (min-device-width: 697px) and (max-device-width: 769px) {
+  .sidebar{
+    width: 124px !important;
+  }
+}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1025px) {
+  .sidebar{
+    width: 170px !important;
+  }
+}
+
+
+@media only screen and (max-width: 1201px) {
+  .sidebar a{
+    padding: 4px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .sidebar a{
+    padding: 4px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+}
